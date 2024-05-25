@@ -1,0 +1,17 @@
+.fadeUpEnter {
+  transform: translateY(100%);
+}
+
+.fadeUpEnterActive {
+  transform: translateY(0);
+  transition: transform 0.3s 0.15s;
+}
+
+.fadeUpExit {
+  transform: translateY(0);
+}
+
+.fadeUpExitActive {
+  transform: translateY(100%);
+  transition: transform 0.2s;
+}

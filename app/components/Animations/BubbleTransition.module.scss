@@ -1,0 +1,19 @@
+// slide from left
+
+.slideEnter {
+  opacity: 0;
+}
+
+.slideEnterActive {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.slideExit {
+  opacity: 1;
+}
+
+.slideExitActive {
+  opacity: 0;
+  transition: 0.2s;
+}

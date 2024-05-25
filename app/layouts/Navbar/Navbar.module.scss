@@ -1,0 +1,57 @@
+@import "@/app/styles/variables";
+
+.navbar {
+  background: $bg-light-color-1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 120;
+  box-shadow: $shadow-1;
+  .main {
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navlinks {
+      display: none;
+    }
+    .calling {
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 25px;
+        font-family: sans-serif;
+        color: $blue-color-1;
+        font-weight: 700;
+        margin-left: 4px;
+      }
+    }
+    .toggle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      width: 30px;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    .main {
+      .navlinks {
+        display: flex;
+        justify-content: space-between;
+        width: 360px;
+        li {
+          font-weight: 700;
+        }
+      }
+      .toggle {
+        display: none;
+      }
+    }
+  }
+}

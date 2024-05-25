@@ -1,0 +1,44 @@
+@import "@/app/styles/variables";
+
+.selectContainer {
+  position: relative;
+
+  .iconSelectContainer {
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .select {
+      font-size: 1rem;
+      line-height: 1.25rem;
+      border-radius: 1rem;
+      padding: 0.875rem 1rem;
+      border: 1px solid $dark-color-4;
+      -webkit-appearance: none;
+      background: #fff;
+      outline: none;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      font-family: sans-serif;
+    }
+    .icon {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 100;
+      height: 30px;
+      width: 30px;
+      right: 1rem;
+    }
+  }
+  .message {
+    position: absolute;
+    left: 0.85rem;
+    top: 3.05rem;
+    font-size: 0.8rem;
+    color: red;
+  }
+}

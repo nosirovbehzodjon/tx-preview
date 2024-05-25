@@ -1,0 +1,36 @@
+@import "@/app/styles/variables";
+
+.inputContainer {
+  position: relative;
+  font-size: 0.5rem;
+  .iconInputContainer {
+    padding: 0.875rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid $dark-color-4;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 1rem;
+    }
+    .input {
+      font-size: 1rem;
+      line-height: 1.25rem;
+      width: 100%;
+      font-family: sans-serif;
+      &::placeholder {
+        color: $dark-color-1;
+      }
+    }
+  }
+  .message {
+    position: absolute;
+    left: 0.85rem;
+    top: 3.05rem;
+    font-size: 0.8rem;
+    color: red;
+  }
+}

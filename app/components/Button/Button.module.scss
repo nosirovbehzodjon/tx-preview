@@ -1,0 +1,28 @@
+@import "@/app/styles/variables";
+
+.button {
+  font-size: 1.125rem;
+  display: flex;
+  height: 60px;
+  border-radius: 30px;
+  align-items: center;
+  padding: 0 1.875rem;
+  font-size: 1.125rem;
+  color: $light-color-1;
+  font-weight: 500;
+  line-height: 1.375rem;
+  cursor: pointer;
+}
+
+.geekblue {
+  background: $gradient-value-2;
+}
+
+.danger {
+  background: $gradient-value-3;
+}
+
+.orange {
+  background: $gradient-value-4;
+  color: $dark-color-1;
+}

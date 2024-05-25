@@ -1,0 +1,69 @@
+@import "@/app/styles/variables";
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  border-radius: 1.5rem;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem;
+  z-index: 1045;
+  background: $bg-light-color-1;
+  .modalHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    span {
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+  .info {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    margin: 1rem 0;
+    a {
+      font-family: sans-serif;
+      color: $blue-color-1;
+    }
+  }
+  .btnModal {
+    transform: scale(0.8);
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal {
+    max-width: 690px;
+    padding: 2.5rem;
+    .modalHeader {
+      h2 {
+        font-size: 2.5rem;
+        line-height: 3.125rem;
+      }
+      span {
+        img {
+          transform: scale(1.5);
+        }
+      }
+    }
+    .info {
+      font-size: 1.25rem;
+      line-height: 1.55rem;
+    }
+    .btnModal {
+      transform: scale(1);
+    }
+  }
+}
