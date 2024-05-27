@@ -3,26 +3,48 @@
 .button {
   font-size: 1.125rem;
   display: flex;
-  height: 60px;
   border-radius: 30px;
   align-items: center;
+  height: 60px;
   padding: 0 1.875rem;
   font-size: 1.125rem;
+  line-height: 1.375rem;
   color: $light-color-1;
   font-weight: 500;
-  line-height: 1.375rem;
+  background: $btn-linear-gradient;
+
   cursor: pointer;
+
+  --tw-shadow: inset 0px -6px 15px rgba(156, 178, 255, 0.25),
+    inset 0px 6px 15px rgba(229, 156, 255, 0.25);
+  --tw-shadow-colored: inset 0px -6px 15px, inset 0px 6px 15px;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  border: 1px solid rgba(229, 156, 255, 0.534);
+
+  &:hover {
+    box-shadow: inset 0 -6px 17px rgba(156, 178, 255, 0.3),
+      inset 0 6px 17px rgba(229, 156, 255, 0.3);
+  }
 }
 
-.geekblue {
-  background: $gradient-value-2;
+.sm {
+  height: 40px;
+  padding: 0 1.275rem;
+  font-size: 0.85rem;
+  line-height: 1rem;
 }
 
-.danger {
-  background: $gradient-value-3;
+.md {
+  height: 50px;
+  padding: 0 1.475rem;
+  font-size: 1rem;
+  line-height: 1.15rem;
 }
 
-.orange {
-  background: $gradient-value-4;
-  color: $dark-color-1;
+.lg {
+  height: 60px;
+  padding: 0 1.875rem;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
 }

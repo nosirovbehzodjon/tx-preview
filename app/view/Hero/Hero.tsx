@@ -14,9 +14,7 @@ export const Hero = () => {
             <h1>Попробуй и приобрети:</h1>
             <p>месяц безлимитного интернета в подарок!</p>
             <a href="#connection">
-              <Button color="danger" className={styles.heroBtn}>
-                Подключить
-              </Button>
+              <Button className={styles.heroBtn}>Подключить</Button>
             </a>
           </div>
           <div className={styles.heroImg}>

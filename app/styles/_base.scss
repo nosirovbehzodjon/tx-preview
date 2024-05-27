@@ -30,6 +30,9 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: $bg-body;
+  color: $light-color-2;
+  position: relative;
 }
 
 button {

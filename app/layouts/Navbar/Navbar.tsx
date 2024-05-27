@@ -3,6 +3,7 @@
 import { FadeTransition } from "@/app/components/Animations/FadeTransition";
 import { SlideTransition } from "@/app/components/Animations/SlideTransition";
 import { Backdrop } from "@/app/components/Backdrop";
+import { Button } from "@/app/components/Button";
 import { Container } from "@/app/components/Container";
 import { MobileMenu } from "@/app/components/MobileMenu/MobileMenu";
 import { Portal } from "@/app/components/Portal";
@@ -62,15 +63,7 @@ export const Navbar = () => {
                 );
               })}
             </ul>
-            <a href="tel:1132" className={styles.calling}>
-              <Image
-                src={"/assets/icons/call-calling.svg"}
-                alt="logo"
-                height={20}
-                width={20}
-              />
-              <span>1132</span>
-            </a>
+            <Button size="sm">Tizimga kirish</Button>
             <span className={styles.toggle} onClick={handelOpen}>
               <Image
                 src={"/assets/icons/menu.svg"}

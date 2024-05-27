@@ -78,6 +78,10 @@ export const Banner = () => {
               />
             </div>
           </div>
+          <div className={styles["animations"]}>
+            <div className={styles["star1"]}></div>
+            <div className={styles["star2"]}></div>
+          </div>
         </div>
       </Container>
     </section>

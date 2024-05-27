@@ -1,4 +1,4 @@
-import styles from "@/app/components/input/input.module.scss";
+import styles from "@/app/components/input/Input.module.scss";
 import cn from "classnames";
 import React, { ReactNode, forwardRef } from "react";
 import { PatternFormatProps, PatternFormat } from "react-number-format";

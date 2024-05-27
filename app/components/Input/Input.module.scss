@@ -5,9 +5,10 @@
   font-size: 0.5rem;
   .iconInputContainer {
     padding: 0.875rem 1rem;
-    border-radius: 1rem;
-    border: 1px solid $dark-color-4;
-    background: #fff;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    border-color: hsla(0, 0%, 100%, 0.12);
+    background-color: hsla(0, 0%, 100%, 0.05);
     display: flex;
     align-items: center;
     .icon {
@@ -17,13 +18,11 @@
       padding-right: 1rem;
     }
     .input {
+      color: inherit;
       font-size: 1rem;
       line-height: 1.25rem;
       width: 100%;
       font-family: sans-serif;
-      &::placeholder {
-        color: $dark-color-1;
-      }
     }
   }
   .message {
@@ -31,6 +30,6 @@
     left: 0.85rem;
     top: 3.05rem;
     font-size: 0.8rem;
-    color: red;
+    color: rgb(98, 34, 151);
   }
 }
