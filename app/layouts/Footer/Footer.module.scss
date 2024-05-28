@@ -20,9 +20,11 @@
           display: flex;
           align-items: center;
           margin-bottom: 0.4rem;
+          img {
+            filter: grayscale(70%);
+          }
           span {
             font-size: 0.875rem;
-            color: $blue-color-1;
             margin-left: 4px;
           }
         }
@@ -32,16 +34,17 @@
         a {
           display: flex;
           align-items: center;
+          img {
+            filter: grayscale(70%);
+          }
           span {
             font-size: 1.5rem;
             font-family: sans-serif;
-            color: $blue-color-1;
             font-weight: 700;
             margin-left: 4px;
           }
         }
         p {
-          color: $blue-color-2;
           font-size: 0.75rem;
         }
       }
@@ -70,6 +73,7 @@
             align-items: center;
             height: 36px;
             width: 36px;
+            filter: grayscale(70%);
             // background: $bg-light-color-1;
             border-radius: 0.7rem;
             position: relative;

@@ -20,9 +20,9 @@ export const Hero = () => {
           <div className={styles.heroImg}>
             <CustomImage
               src={"/assets/images/hero-desktop.png"}
-              aspectRatio={690 / 550}
+              aspectRatio={690 / 690}
               alt="logo"
-              height={550}
+              height={690}
               width={690}
               title=""
               wrapperClassName={styles.heroImgDesk}
