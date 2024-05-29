@@ -201,11 +201,11 @@ export const Form = () => {
             </div>
             <div className={styles.banner}>
               <CustomImage
-                src={"/assets/images/form.png"}
-                aspectRatio={690 / 540}
+                src={"/assets/images/hero-desktop.png"}
+                aspectRatio={400 / 400}
                 alt="form"
-                height={550}
-                width={710}
+                height={400}
+                width={400}
                 wrapperClassName={styles.formImg}
                 className={styles.img}
               />

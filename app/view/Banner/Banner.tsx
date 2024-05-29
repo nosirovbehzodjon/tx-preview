@@ -59,19 +59,14 @@ export const Banner = () => {
             </div>
             <div className={styles.imgSide}>
               <Image
-                src={"/assets/icons/banner/banner.png"}
+                src={"/assets/images/hero-desktop.png"}
                 alt={"tariff"}
                 width={690}
                 height={516}
               />
+
               <Image
-                src={"/assets/icons/banner/qr.svg"}
-                alt={"tariff"}
-                width={320}
-                height={290}
-              />
-              <Image
-                src={"/assets/icons/banner/mobile-banner.png"}
+                src={"/assets/images/hero.png"}
                 alt={"tariff"}
                 width={320}
                 height={290}

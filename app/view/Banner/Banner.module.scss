@@ -109,13 +109,6 @@
           object-fit: cover;
           width: 320px;
           height: 290px;
-          &:nth-child(2) {
-            height: 100px;
-            width: 100px;
-            right: 30px;
-            bottom: 30px;
-            z-index: 100;
-          }
           &:first-child {
             display: none;
           }

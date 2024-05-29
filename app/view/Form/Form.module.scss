@@ -15,16 +15,7 @@
     top: 0;
     background-image: url(https://ai-tool.nextjstemplates.com/images/cta/grid.svg);
   }
-  &::before {
-    content: "";
-    top: 0;
-    z-index: -1;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(https://ai-tool.nextjstemplates.com/images/blur/blur-19.svg);
-    position: absolute;
-  }
+
   .main {
     display: flex;
     flex-direction: column;
