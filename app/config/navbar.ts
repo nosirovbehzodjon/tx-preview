@@ -1,14 +1,14 @@
 export const menuList = [
   {
     id: "service",
-    text: "Условия",
+    text: "Loyihalarimiz",
   },
   {
     id: "connection",
-    text: "Подключить",
+    text: "Jadvalni olish",
   },
   {
     id: "cinerama",
-    text: "Cinerama",
+    text: "Natijalar",
   },
 ] as const;

@@ -10,9 +10,9 @@ export const Footer = () => {
         <div className={styles.main}>
           <div className={styles.left}>
             <div className={styles.contactSocial}>
-              <h3>Как с нами связаться</h3>
+              <h3>{"Biz bilan bog'lanish"}</h3>
               <a
-                href={process.env.STATIC_VAR_FACEBOOK_TURON}
+                href={process.env.STATIC_VAR_FACEBOOK_ADMIN}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -23,11 +23,11 @@ export const Footer = () => {
                     height={20}
                     width={20}
                   />
-                  <span>Написать в Facebook</span>
+                  <span>Facebook orqali</span>
                 </p>
               </a>
               <a
-                href={process.env.STATIC_VAR_TELEGRAM_TURON}
+                href={process.env.STATIC_VAR_TELEGRAM_TALABAGAXABAR}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -38,30 +38,30 @@ export const Footer = () => {
                     height={20}
                     width={20}
                   />
-                  <span>Написать в Telegram</span>
+                  <span>Telegram orqali</span>
                 </p>
               </a>
             </div>
             <div className={styles.contactPhone}>
-              <a href="tel:1132" className={styles.calling}>
+              <a href="tel:949223832" className={styles.calling}>
                 <Image
                   src={"/assets/icons/call-calling.svg"}
                   alt="logo"
                   height={20}
                   width={20}
                 />
-                <span>1132</span>
+                <span>94 922 38 32</span>
               </a>
-              <p>Заказать обратный звонок</p>
+              <p>{"Telefon orqali bog'lanish"}</p>
             </div>
           </div>
           <div className={styles.right}>
             <div className={styles.socialMedia}>
-              <h3>Мы в соц. сетях</h3>
+              <h3>Biz ijtimoiy tarmoqlarda</h3>
               <ul className={styles.socilaList}>
                 <li>
                   <a
-                    href={process.env.STATIC_VAR_FACEBOOK_CINERAMA}
+                    href={process.env.STATIC_VAR_FACEBOOK_TALABAGAXABAR}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -75,7 +75,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href={process.env.STATIC_VAR_INSTAGRAM_CINERAMA}
+                    href={process.env.STATIC_VAR_INSTAGRAM_TALABAGAXABAR}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -89,7 +89,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href={process.env.STATIC_VAR_TELEGRAM_CINERAMA}
+                    href={process.env.STATIC_VAR_TELEGRAM_TALABAGAXABAR}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -131,9 +131,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <p className={styles.infoFooter}>
-          ©2010-2024 Turon Telecom - телекоммуникационные услуги
-        </p>
+        <p className={styles.infoFooter}>©2024 ABEZ IT Company</p>
       </Container>
     </footer>
   );

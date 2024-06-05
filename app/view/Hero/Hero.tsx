@@ -10,11 +10,14 @@ export const Hero = () => {
       <Container>
         <div className={styles.main}>
           <div className={styles.heroInfo}>
-            <div className={styles.bage}>Акция!</div>
-            <h1>Попробуй и приобрети:</h1>
-            <p>месяц безлимитного интернета в подарок!</p>
+            <div className={styles.bage}>Talabaga xabar!</div>
+            <h1>Talabalar uchun</h1>
+            <p>
+              Talim va tarbiya, bilim va hunar, an’ana va zamonaviylikni
+              birlashtirilgan holda!
+            </p>
             <a href="#connection">
-              <Button className={styles.heroBtn}>Подключить</Button>
+              <Button className={styles.heroBtn}>Jadvalni olish</Button>
             </a>
           </div>
           <div className={styles.heroImg}>
@@ -38,7 +41,7 @@ export const Hero = () => {
             />
             <a href="#connection">
               <Button color="danger" className={styles.heroBtn}>
-                Подключить
+                Jadvalni olish
               </Button>
             </a>
           </div>

@@ -10,7 +10,7 @@ import { Input } from "@/app/components/Input";
 import Modal from "@/app/components/Modal/Modal";
 import { PhoneFormat } from "@/app/components/PhoneFormat";
 import { Portal } from "@/app/components/Portal";
-import { Select } from "@/app/components/Select";
+import { ReactSelect } from "@/app/components/Select";
 import { initialValue, schema } from "@/app/config/form";
 import { useScrollCheck } from "@/app/hook/useScrollCheck";
 import styles from "@/app/view/Form/Form.module.scss";
@@ -135,20 +135,11 @@ export const Form = () => {
                     control={control}
                     name="region"
                     render={({ field }) => (
-                      <Select
-                        icon={
-                          <Image
-                            src={"/assets/icons/form/arrow-down.svg"}
-                            alt="arrow"
-                            width={20}
-                            height={20}
-                          />
-                        }
+                      <ReactSelect
                         {...field}
                         className={styles.formInputs}
                         placeholder="Область"
                         message={errors.region && errors.region.message}
-                        options={temporartOptions}
                       />
                     )}
                   />
@@ -156,20 +147,11 @@ export const Form = () => {
                     control={control}
                     name="district"
                     render={({ field }) => (
-                      <Select
-                        icon={
-                          <Image
-                            src={"/assets/icons/form/arrow-down.svg"}
-                            alt="down"
-                            width={20}
-                            height={20}
-                          />
-                        }
+                      <ReactSelect
                         {...field}
                         className={styles.formInputs}
                         placeholder="Район"
                         message={errors.district && errors.district.message}
-                        options={temporartOptions}
                       />
                     )}
                   />
