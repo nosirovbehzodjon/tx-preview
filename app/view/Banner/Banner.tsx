@@ -11,14 +11,14 @@ export const Banner = () => {
       <Container>
         <div className={styles.purpleContainer}>
           <div className={styles.title}>
-            <h3>Кино, ТВ и интернет</h3>
-            <p>Медиаплатформа Cinerama и ее возможности!</p>
+            <h3>Talabalar uchun onlayn kutubxona</h3>
+            <p>EduLibrary mediaplatformasi va uning imkoniyatlari!</p>
           </div>
           <div className={styles.main}>
             <div className={styles.infoSide}>
               <div className={styles.title}>
-                <h3>Кино, ТВ и интернет</h3>
-                <p>Медиаплатформа Cinerama и ее возможности!</p>
+                <h3>Talabalar uchun onlayn kutubxona</h3>
+                <p>EduLibrary mediaplatformasi va uning imkoniyatlari!</p>
               </div>
               <div className={styles.limitTariffWrapper}>
                 <div className={styles.limitList}>
@@ -44,11 +44,13 @@ export const Banner = () => {
                 />
               </div>
               <p className={styles.limitDesc}>
-                Если вы являетесь абонентом Turon Telecom, вы бесплатно получите
-                тариф «Стандарт» на платформе Cinerama.
+                {`Agar siz Universitas talabasi bo‘lsangiz, EduLibrary
+                platformasida "Premium" tarifini bepul olasiz. Bu imkoniyatdan
+                foydalanib, bilimlaringizni yanada boyitish va o‘quv jarayonini
+                yanada samarali qilish imkoniyatiga ega bo‘ling.`}
               </p>
               <a
-                href="https://cinerama.uz/"
+                href="https://t.me/talabagaxabar"
                 target="_blank"
                 rel="noopener noreferrer"
               >

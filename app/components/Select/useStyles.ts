@@ -9,7 +9,8 @@ export const useSelectStyles = () => {
           ...base,
           backgroundColor: "#ffffff0d",
           borderRadius: "0.375rem",
-          minWidth: "280px",
+          minWidth: "320px",
+          fontSize: "1rem",
           width: "100%",
           padding: "6px 0px",
           border: state.isFocused

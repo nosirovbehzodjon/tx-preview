@@ -80,12 +80,14 @@ export const Form = () => {
         <Container>
           <div className={styles.main}>
             <div className={styles.formSide}>
-              <h3>Подключить интернет</h3>
+              <h3>{"Tadbirlar uchun ro'yxatdan o'tish"}</h3>
               <p className={styles.formDesc}>
-                Присоединяйтесь и наслаждайтесь целым месяцем неограниченного
-                интернета! Позабудьте о скоростных ограничениях – попробуйте
-                онлайн развлечения, стриминг, и работайте удаленно. Не упустите
-                возможность ощутить максимальную свободу онлайн!
+                Talabalar festivali - bu talabalarning iste’dodlarini namoyish
+                etish, madaniy almashinuvi va dam olish uchun yillik bayramdir.
+                Musiqiy chiqishlar, raqs shoular, teatr tomoshalari va sport
+                musobaqalari orqali talabalar do‘stlashish va yangi tanishlar
+                orttirish imkoniyatiga ega bo‘ladilar. Bu yoshlarning ijodiy
+                salohiyatini rivojlantirish uchun ajoyib maydondir.
               </p>
               <form onSubmit={handleSubmit(onSubmit)}>
                 <div className={styles.inputContainer}>
@@ -104,7 +106,7 @@ export const Form = () => {
                         }
                         {...field}
                         className={styles.formInputs}
-                        placeholder="Ваше имя"
+                        placeholder="To'liq ismingiz"
                         message={errors.name && errors.name.message}
                       />
                     )}
@@ -126,7 +128,7 @@ export const Form = () => {
                         }
                         {...field}
                         className={styles.formInputs}
-                        placeholder="Номер телефона"
+                        placeholder="Telefon raqam"
                         message={errors.phone && errors.phone.message}
                       />
                     )}
@@ -138,7 +140,7 @@ export const Form = () => {
                       <ReactSelect
                         {...field}
                         className={styles.formInputs}
-                        placeholder="Область"
+                        placeholder="Viloyat"
                         message={errors.region && errors.region.message}
                       />
                     )}
@@ -150,7 +152,7 @@ export const Form = () => {
                       <ReactSelect
                         {...field}
                         className={styles.formInputs}
-                        placeholder="Район"
+                        placeholder="Tuman"
                         message={errors.district && errors.district.message}
                       />
                     )}
@@ -170,7 +172,7 @@ export const Form = () => {
                         }
                         {...field}
                         className={styles.formInputs}
-                        placeholder="Адрес"
+                        placeholder="Manzil"
                         message={errors.location && errors.location.message}
                       />
                     )}

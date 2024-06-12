@@ -10,22 +10,22 @@ export const services: IServiceItem[] = [
   {
     id: 1,
     icon: "A",
-    title: "Абонентская плата",
+    title: "O'quv Yordami",
     description:
-      "Первый месяц абонентской платы в подарок - никаких дополнительных расходов!",
+      "Talabalar uchun bilim va baholarni oshirishga yordam beradigan shaxsiy o‘quv mashg‘ulotlari va konsultatsiyalar.",
   },
   {
     id: 2,
     icon: "B",
-    title: "Заключение договора",
+    title: "Kasbiy Maslahati",
     description:
-      "Наши специалисты приедут к вам для оформления договора - удобно, быстро и без дополнительных затрат!",
+      "Talabalarga kasb rejalashtirish, rezyume yozish va ish topishda ko‘mak beradigan professional maslahatlar va yo‘l-yo‘riqlar.",
   },
   {
     id: 3,
     icon: "C",
-    title: "Кабель",
+    title: "Ruhiy Salomatlik Xizmatlari",
     description:
-      "Подключайтесь к максимальной свободе интернета без дополнительных издержек - кабель длиной до 50 метров в подарок!",
+      "Talabalar uchun stressni boshqarish, ruhiy farovonlikni saqlash va emotsional qo‘llab-quvvatlash bo‘yicha professional xizmatlar.",
   },
 ] as const;

@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import { GroupBase, Props, SelectInstance } from "react-select";
 import Select from "react-select";
-
+import styles from "@/app/components/Input/Input.module.scss";
 import { useSelectStyles } from "@/app/components/Select/useStyles";
 
 interface IReactSelectProps extends Props {
@@ -16,7 +16,7 @@ export const ReactSelect = forwardRef<
   const { style } = useSelectStyles();
 
   return (
-    <div className="relative">
+    <div className={styles.inputContainer}>
       <Select
         options={options}
         styles={style}
@@ -34,11 +34,7 @@ export const ReactSelect = forwardRef<
         ref={ref}
         {...rest}
       />
-      {message && (
-        <p className="absolute text-[10px] bottom-[-1.1rem] left-[0.5rem] dark:text-[#b34e4e] text-[red]">
-          {message}
-        </p>
-      )}
+      {message && <p className={styles.message}>{message}</p>}
     </div>
   );
 });
